@@ -8,7 +8,7 @@ export function Header() {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-white">
-              MediAI Diagnosis
+              MediAI-Diagnosis
             </h1>
             <p className="text-sm text-blue-100">Advanced AI Medical Analysis & Expert System</p>
           </div>
