@@ -177,28 +177,27 @@ Contributions are welcome! Feel free to:
 
 ## 🚀 Deployment
 
-### Deploy to Netlify
+### Deployed on Vercel ⚡
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/VishalRaut2106/-MediAI-Diagnosis)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/VishalRaut2106/-MediAI-Diagnosis)
 
-**Quick Deploy Steps:**
+**Already deployed!** Your app is live on Vercel.
 
-1. **Via Netlify Dashboard**
-   - Go to [Netlify](https://app.netlify.com/)
-   - Click "Add new site" → "Import an existing project"
-   - Connect your GitHub repo: `VishalRaut2106/-MediAI-Diagnosis`
-   - Build settings are auto-configured via `netlify.toml`
-   - Click "Deploy site"
+**To redeploy after changes:**
+```bash
+git add .
+git commit -m "your changes"
+git push origin main
+```
+Vercel will automatically redeploy!
 
-2. **Via Netlify CLI**
-   ```bash
-   npm install -g netlify-cli
-   netlify login
-   netlify init
-   netlify deploy --prod
-   ```
+**Environment Variables:**
+Add these in Vercel Dashboard → Settings → Environment Variables:
+- `DIAGNOSIS_MODE=ai`
+- `GEMINI_API_KEY=your-key` (optional)
+- `USE_REAL_GEMINI=false` (optional)
 
-For detailed deployment instructions, see [DEPLOY_NETLIFY.md](DEPLOY_NETLIFY.md)
+For detailed instructions, see [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md)
 
 ---
 
