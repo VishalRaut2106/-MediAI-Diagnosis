@@ -39,7 +39,7 @@ This application serves as an educational tool to demonstrate:
 
 ### 2. 📊 Comprehensive Symptom Database
 
-**18+ Symptoms Across Multiple Categories:**
+**20+ Symptoms Across Multiple Categories:**
 
 | Category | Symptoms |
 |----------|----------|
