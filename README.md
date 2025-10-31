@@ -175,7 +175,31 @@ Contributions are welcome! Feel free to:
 - [ ] Medication recommendations
 - [ ] Nearby doctor finder
 
+## 🚀 Deployment
+
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/VishalRaut2106/-MediAI-Diagnosis)
+
+**Quick Deploy Steps:**
+
+1. **Via Netlify Dashboard**
+   - Go to [Netlify](https://app.netlify.com/)
+   - Click "Add new site" → "Import an existing project"
+   - Connect your GitHub repo: `VishalRaut2106/-MediAI-Diagnosis`
+   - Build settings are auto-configured via `netlify.toml`
+   - Click "Deploy site"
+
+2. **Via Netlify CLI**
+   ```bash
+   npm install -g netlify-cli
+   netlify login
+   netlify init
+   netlify deploy --prod
+   ```
+
+For detailed deployment instructions, see [DEPLOY_NETLIFY.md](DEPLOY_NETLIFY.md)
+
 ---
 
 **Built with ❤️ using Next.js and Google Gemini AI**
-# -MediAI-Diagnosis
